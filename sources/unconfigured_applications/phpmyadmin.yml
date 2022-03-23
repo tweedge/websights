@@ -1,0 +1,16 @@
+'Default phpMyAdmin Setup':
+    description: 'Accessible phpMyAdmin setup page'
+    path: 'phpmyadmin/scripts/setup.php'
+    validation: 'You want to configure phpMyAdmin'
+'Alternate phpMyAdmin Setup (Typo3)':
+    description: 'Accessible phpMyAdmin setup page'
+    path: 'typo3/phpmyadmin/scripts/setup.php'
+    validation: 'You want to configure phpMyAdmin'
+'Alternate phpMyAdmin Setup (common option 1)':
+    description: 'Accessible phpMyAdmin setup page'
+    path: 'php/scripts/setup.php'
+    validation: 'You want to configure phpMyAdmin'
+'Alternate phpMyAdmin Setup (common option 2)':
+    description: 'Accessible phpMyAdmin setup page'
+    path: 'phpma/scripts/setup.php'
+    validation: 'You want to configure phpMyAdmin'

@@ -1,0 +1,6 @@
+'Node Package JSON':
+    description: 'Contains requirements for Node applications.'
+    path: 'package.json'
+'NPM Package JSON':
+    description: 'Contains requirements for Node/NPM applications.'
+    path: 'npm-package.json'

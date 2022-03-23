@@ -1,0 +1,8 @@
+'Composer Packages':
+    description: 'Contains Composer packages, revealing what is powering a PHP site.'
+    path: 'composer.json'
+    validation: '("require"|"require-dev")'
+'Composer Lockfile':
+    description: 'Contains Composer packages, revealing what is powering a PHP site and what versions are used.'
+    path: 'composer.lock'
+    validation: 'This file locks the dependencies of your project to a known state'

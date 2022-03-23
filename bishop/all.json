@@ -1,0 +1,137 @@
+[
+    {
+        "description": "Contains Composer packages, revealing what is powering a PHP site.",
+        "enabled": true,
+        "name": "Composer Packages",
+        "risk": "low",
+        "searchString": "(\"require\"|\"require-dev\")",
+        "url": "composer.json",
+        "uid": "8a772af7b1c59aacc0bf65e41dbc4fa6"
+    },
+    {
+        "description": "Contains Composer packages, revealing what is powering a PHP site and what versions are used.",
+        "enabled": true,
+        "name": "Composer Lockfile",
+        "risk": "low",
+        "searchString": "This file locks the dependencies of your project to a known state",
+        "url": "composer.lock",
+        "uid": "5bead4cba6963ceb07f8fb86080c2196"
+    },
+    {
+        "description": "Check to see if the .svn directory returns a standard index",
+        "enabled": true,
+        "name": "SVN Directory (Indexable)",
+        "risk": "low",
+        "searchString": "Index(.| )*entries(.| )*props",
+        "url": ".svn",
+        "uid": "25d4099408e9c041ca79191c5dcb8db3"
+    },
+    {
+        "description": "Look for publicly accessible SVN entries",
+        "enabled": true,
+        "name": "SVN Directory",
+        "risk": "low",
+        "searchString": "svn:",
+        "url": ".svn/entries",
+        "uid": "e05d7667edf79046cd67ce0d8fa93760"
+    },
+    {
+        "description": "Check to see if the .git directory returns a standard index",
+        "enabled": true,
+        "name": "Git Directory (Indexable)",
+        "risk": "low",
+        "searchString": "Index of(.| )*HEAD",
+        "url": ".git",
+        "uid": "a35f7e25cc5f8b8328e61e5a2bba23ba"
+    },
+    {
+        "description": "A file which likely indicates a git repository is present.",
+        "enabled": true,
+        "name": "Git HEAD",
+        "risk": "low",
+        "searchString": "ref: (refs|[0-9a-fA-F]+)",
+        "url": ".git/HEAD",
+        "uid": "4f896b2d68af085ab22decc4af141417"
+    },
+    {
+        "description": "A file which likely indicates a git repository is present.",
+        "enabled": true,
+        "name": "Git config",
+        "risk": "low",
+        "searchString": "\\[core\\]",
+        "url": ".git/config",
+        "uid": "50af5ac092bcc449b1bb4670c4129c6b"
+    },
+    {
+        "description": "Accessible Wordpress setup page",
+        "enabled": true,
+        "name": "Default Wordpress Setup",
+        "risk": "low",
+        "searchString": "Please provide the following information",
+        "url": "wp-admin/install.php",
+        "uid": "f8dcb27a35a5b883d0030afaab20ac3b"
+    },
+    {
+        "description": "Accessible Wordpress setup page",
+        "enabled": true,
+        "name": "Alternate Wordpress Setup",
+        "risk": "low",
+        "searchString": "Please provide the following information",
+        "url": "blog/wp-admin/install.php",
+        "uid": "da757e695dc680d8c3e5a893d0b76cf9"
+    },
+    {
+        "description": "Accessible Wordpress setup page looking for connection details",
+        "enabled": true,
+        "name": "Default Wordpress Setup (wp-config.php missing)",
+        "risk": "low",
+        "searchString": "Below you should enter your database connection details",
+        "url": "wp-admin/install.php",
+        "uid": "1b916e8c47ea8e56f6d65afea7bf269e"
+    },
+    {
+        "description": "Accessible Wordpress setup page looking for connection details",
+        "enabled": true,
+        "name": "Alternate Wordpress Setup (wp-config.php missing)",
+        "risk": "low",
+        "searchString": "Below you should enter your database connection details",
+        "url": "blog/wp-admin/install.php",
+        "uid": "9565cdce76642d1bbd857a7d8d0f0825"
+    },
+    {
+        "description": "Accessible phpMyAdmin setup page",
+        "enabled": true,
+        "name": "Default phpMyAdmin Setup",
+        "risk": "low",
+        "searchString": "You want to configure phpMyAdmin",
+        "url": "phpmyadmin/scripts/setup.php",
+        "uid": "190f9ce44aa953cbd2a4023ebe50e6d3"
+    },
+    {
+        "description": "Accessible phpMyAdmin setup page",
+        "enabled": true,
+        "name": "Alternate phpMyAdmin Setup (Typo3)",
+        "risk": "low",
+        "searchString": "You want to configure phpMyAdmin",
+        "url": "typo3/phpmyadmin/scripts/setup.php",
+        "uid": "88795eda712d9f00dac4a305298bef93"
+    },
+    {
+        "description": "Accessible phpMyAdmin setup page",
+        "enabled": true,
+        "name": "Alternate phpMyAdmin Setup (common option 1)",
+        "risk": "low",
+        "searchString": "You want to configure phpMyAdmin",
+        "url": "php/scripts/setup.php",
+        "uid": "618b1a9de6cd4edc04103ff3617301f0"
+    },
+    {
+        "description": "Accessible phpMyAdmin setup page",
+        "enabled": true,
+        "name": "Alternate phpMyAdmin Setup (common option 2)",
+        "risk": "low",
+        "searchString": "You want to configure phpMyAdmin",
+        "url": "phpma/scripts/setup.php",
+        "uid": "a79ec362c9effcb0e7bd313f704ed840"
+    }
+]

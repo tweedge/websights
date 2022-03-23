@@ -1,0 +1,16 @@
+'Default Wordpress Setup':
+    description: 'Accessible Wordpress setup page'
+    path: 'wp-admin/install.php'
+    validation: 'Please provide the following information'
+'Alternate Wordpress Setup':
+    description: 'Accessible Wordpress setup page'
+    path: 'blog/wp-admin/install.php'
+    validation: 'Please provide the following information'
+'Default Wordpress Setup (wp-config.php missing)':
+    description: 'Accessible Wordpress setup page looking for connection details'
+    path: 'wp-admin/install.php'
+    validation: 'Below you should enter your database connection details'
+'Alternate Wordpress Setup (wp-config.php missing)':
+    description: 'Accessible Wordpress setup page looking for connection details'
+    path: 'blog/wp-admin/install.php'
+    validation: 'Below you should enter your database connection details'

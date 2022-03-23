@@ -1,0 +1,3 @@
+'Automatically generated index':
+    description: 'Check to see if the page returns a standard index'
+    validation: '(Index of)(Last modified)(Parent Directory)'

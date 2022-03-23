@@ -1,0 +1,11 @@
+Gopkg.lock
+go.sum
+Cargo.lock
+Gemfile
+Gemfile.lock
+composer.json
+composer.lock
+package.json
+npm-package.json
+requirements.txt
+yarn.lock

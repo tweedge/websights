@@ -1,0 +1,12 @@
+'Git Directory (Indexable)':
+    description: 'Check to see if the .git directory returns a standard index'
+    path: '.git'
+    validation: 'Index of(.| )*HEAD'
+'Git HEAD':
+    description: 'A file which likely indicates a git repository is present.'
+    path: '.git/HEAD'
+    validation: 'ref: (refs|[0-9a-fA-F]+)'
+'Git config':
+    description: 'A file which likely indicates a git repository is present.'
+    path: '.git/config'
+    validation: '\[core\]'

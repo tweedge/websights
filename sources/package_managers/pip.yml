@@ -1,0 +1,3 @@
+'Pip Requirements':
+    description: 'Contains Pip requirements for Python applications.'
+    path: 'requirements.txt'

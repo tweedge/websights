@@ -1,0 +1,8 @@
+'SVN Directory (Indexable)':
+    description: 'Check to see if the .svn directory returns a standard index'
+    path: '.svn'
+    validation: 'Index(.| )*entries(.| )*props'
+'SVN Directory':
+    description: 'Look for publicly accessible SVN entries'
+    path: '.svn/entries'
+    validation: 'svn:'

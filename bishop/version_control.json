@@ -1,0 +1,47 @@
+[
+    {
+        "description": "Check to see if the .svn directory returns a standard index",
+        "enabled": true,
+        "name": "SVN Directory (Indexable)",
+        "risk": "low",
+        "searchString": "Index(.| )*entries(.| )*props",
+        "url": ".svn",
+        "uid": "25d4099408e9c041ca79191c5dcb8db3"
+    },
+    {
+        "description": "Look for publicly accessible SVN entries",
+        "enabled": true,
+        "name": "SVN Directory",
+        "risk": "low",
+        "searchString": "svn:",
+        "url": ".svn/entries",
+        "uid": "e05d7667edf79046cd67ce0d8fa93760"
+    },
+    {
+        "description": "Check to see if the .git directory returns a standard index",
+        "enabled": true,
+        "name": "Git Directory (Indexable)",
+        "risk": "low",
+        "searchString": "Index of(.| )*HEAD",
+        "url": ".git",
+        "uid": "a35f7e25cc5f8b8328e61e5a2bba23ba"
+    },
+    {
+        "description": "A file which likely indicates a git repository is present.",
+        "enabled": true,
+        "name": "Git HEAD",
+        "risk": "low",
+        "searchString": "ref: (refs|[0-9a-fA-F]+)",
+        "url": ".git/HEAD",
+        "uid": "4f896b2d68af085ab22decc4af141417"
+    },
+    {
+        "description": "A file which likely indicates a git repository is present.",
+        "enabled": true,
+        "name": "Git config",
+        "risk": "low",
+        "searchString": "\\[core\\]",
+        "url": ".git/config",
+        "uid": "50af5ac092bcc449b1bb4670c4129c6b"
+    }
+]

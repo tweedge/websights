@@ -1,0 +1,20 @@
+[
+    {
+        "description": "Contains Composer packages, revealing what is powering a PHP site.",
+        "enabled": true,
+        "name": "Composer Packages",
+        "risk": "low",
+        "searchString": "(\"require\"|\"require-dev\")",
+        "url": "composer.json",
+        "uid": "8a772af7b1c59aacc0bf65e41dbc4fa6"
+    },
+    {
+        "description": "Contains Composer packages, revealing what is powering a PHP site and what versions are used.",
+        "enabled": true,
+        "name": "Composer Lockfile",
+        "risk": "low",
+        "searchString": "This file locks the dependencies of your project to a known state",
+        "url": "composer.lock",
+        "uid": "5bead4cba6963ceb07f8fb86080c2196"
+    }
+]

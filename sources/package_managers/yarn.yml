@@ -1,0 +1,3 @@
+'Yarn Lock':
+    description: 'Contains requirements for Yarn applications.'
+    path: 'yarn.lock'

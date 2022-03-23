@@ -1,0 +1,6 @@
+'Gemfile':
+    description: 'Contains requirements for Ruby and Ruby-on-Rails applications.'
+    path: 'Gemfile'
+'Gemfile Lock':
+    description: 'Contains pinned requirements for Ruby and Ruby-on-Rails applications.'
+    path: 'Gemfile.lock'

@@ -1,0 +1,5 @@
+.svn
+.svn/entries
+.git
+.git/HEAD
+.git/config
