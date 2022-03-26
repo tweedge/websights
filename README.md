@@ -28,7 +28,7 @@ Contributing is straightforward: create or append data to a YAML-formatted file 
 'Short title':
     description: 'A lengthier description so people know what has been found'
     path: 'OPTIONAL: The filename to look for, or the filename with a preceding path'
-    validation: 'OPTIONAL: A string or regex to match which confirms the finding'
+    validation: 'OPTIONAL: A string to match which confirms the finding'
 ```
 
 Ensure it is named the path you want checked, and has a title, description for the finding, and validation regex. Then just run `compile.py`, add all the changed files, and submit a PR. Easy!
